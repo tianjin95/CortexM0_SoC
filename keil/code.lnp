@@ -1,0 +1,8 @@
+--cpu Cortex-M0
+".\main.o"
+".\startup_cmsdk_cm0.o"
+".\code_def.o"
+--strict --scatter ".\code.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\code.map" -o .\code.axf

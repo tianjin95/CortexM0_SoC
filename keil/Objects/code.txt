@@ -1,0 +1,220 @@
+
+code.axf:     file format elf32-littlearm
+
+
+Disassembly of section ER_RO:
+
+00000000 <__Vectors>:
+   0:	60 03 00 20 cd 00 00 00 00 00 00 00 00 00 00 00     `.. ............
+	...
+  40:	d5 00 00 00                                         ....
+
+00000044 <__main>:
+  44:	f000 f802 	bl	4c <__scatterload>
+  48:	f000 f830 	bl	ac <__rt_entry>
+
+0000004c <__scatterload>:
+  4c:	a00c      	add	r0, pc, #48	; (adr r0, 80 <__scatterload_null+0x24>)
+  4e:	c830      	ldmia	r0!, {r4, r5}
+  50:	3808      	subs	r0, #8
+  52:	1824      	adds	r4, r4, r0
+  54:	182d      	adds	r5, r5, r0
+  56:	46a2      	mov	sl, r4
+  58:	1e67      	subs	r7, r4, #1
+  5a:	46ab      	mov	fp, r5
+
+0000005c <__scatterload_null>:
+  5c:	4654      	mov	r4, sl
+  5e:	465d      	mov	r5, fp
+  60:	42ac      	cmp	r4, r5
+  62:	d101      	bne.n	68 <__scatterload_null+0xc>
+  64:	f000 f822 	bl	ac <__rt_entry>
+  68:	467e      	mov	r6, pc
+  6a:	3e0f      	subs	r6, #15
+  6c:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
+  6e:	46b6      	mov	lr, r6
+  70:	2601      	movs	r6, #1
+  72:	4233      	tst	r3, r6
+  74:	d000      	beq.n	78 <__scatterload_null+0x1c>
+  76:	1afb      	subs	r3, r7, r3
+  78:	46a2      	mov	sl, r4
+  7a:	46ab      	mov	fp, r5
+  7c:	4333      	orrs	r3, r6
+  7e:	4718      	bx	r3
+  80:	00000120 	.word	0x00000120
+  84:	00000130 	.word	0x00000130
+
+00000088 <__scatterload_zeroinit>:
+  88:	2300      	movs	r3, #0
+  8a:	2400      	movs	r4, #0
+  8c:	2500      	movs	r5, #0
+  8e:	2600      	movs	r6, #0
+  90:	3a10      	subs	r2, #16
+  92:	d301      	bcc.n	98 <__scatterload_zeroinit+0x10>
+  94:	c178      	stmia	r1!, {r3, r4, r5, r6}
+  96:	d8fb      	bhi.n	90 <__scatterload_zeroinit+0x8>
+  98:	0752      	lsls	r2, r2, #29
+  9a:	d300      	bcc.n	9e <__scatterload_zeroinit+0x16>
+  9c:	c130      	stmia	r1!, {r4, r5}
+  9e:	d500      	bpl.n	a2 <__scatterload_zeroinit+0x1a>
+  a0:	600b      	str	r3, [r1, #0]
+  a2:	4770      	bx	lr
+
+000000a4 <__rt_lib_init>:
+  a4:	b51f      	push	{r0, r1, r2, r3, r4, lr}
+
+000000a6 <__rt_lib_init_alloca_1>:
+  a6:	bd1f      	pop	{r0, r1, r2, r3, r4, pc}
+
+000000a8 <__rt_lib_shutdown>:
+  a8:	b510      	push	{r4, lr}
+
+000000aa <__rt_lib_shutdown_cpp_1>:
+  aa:	bd10      	pop	{r4, pc}
+
+000000ac <__rt_entry>:
+  ac:	f000 f827 	bl	fe <__user_setup_stackheap>
+  b0:	4611      	mov	r1, r2
+
+000000b2 <__rt_entry_li>:
+  b2:	f7ff fff7 	bl	a4 <__rt_lib_init>
+
+000000b6 <__rt_entry_main>:
+  b6:	f000 f855 	bl	164 <main>
+  ba:	f000 f83f 	bl	13c <exit>
+
+000000be <__rt_exit>:
+  be:	b403      	push	{r0, r1}
+
+000000c0 <__rt_exit_ls>:
+  c0:	f7ff fff2 	bl	a8 <__rt_lib_shutdown>
+
+000000c4 <__rt_exit_exit>:
+  c4:	bc03      	pop	{r0, r1}
+  c6:	f000 f845 	bl	154 <_sys_exit>
+	...
+
+000000cc <Reset_Handler>:
+  cc:	4805      	ldr	r0, [pc, #20]	; (e4 <__user_initial_stackheap+0xc>)
+  ce:	4680      	mov	r8, r0
+  d0:	46c1      	mov	r9, r8
+  d2:	4700      	bx	r0
+
+000000d4 <UART_Handler>:
+  d4:	e7fe      	b.n	d4 <UART_Handler>
+	...
+
+000000d8 <__user_initial_stackheap>:
+  d8:	4803      	ldr	r0, [pc, #12]	; (e8 <__user_initial_stackheap+0x10>)
+  da:	4904      	ldr	r1, [pc, #16]	; (ec <__user_initial_stackheap+0x14>)
+  dc:	4a04      	ldr	r2, [pc, #16]	; (f0 <__user_initial_stackheap+0x18>)
+  de:	4b05      	ldr	r3, [pc, #20]	; (f4 <__user_initial_stackheap+0x1c>)
+  e0:	4770      	bx	lr
+  e2:	0000      	.short	0x0000
+  e4:	00000045 	.word	0x00000045
+  e8:	20000060 	.word	0x20000060
+  ec:	20000360 	.word	0x20000360
+  f0:	20000160 	.word	0x20000160
+  f4:	20000160 	.word	0x20000160
+
+000000f8 <__use_two_region_memory>:
+  f8:	4770      	bx	lr
+
+000000fa <__rt_heap_escrow$2region>:
+  fa:	4770      	bx	lr
+
+000000fc <__rt_heap_expand$2region>:
+  fc:	4770      	bx	lr
+
+000000fe <__user_setup_stackheap>:
+  fe:	4675      	mov	r5, lr
+ 100:	f000 f824 	bl	14c <__user_libspace>
+ 104:	46ae      	mov	lr, r5
+ 106:	0005      	movs	r5, r0
+ 108:	4669      	mov	r1, sp
+ 10a:	4653      	mov	r3, sl
+ 10c:	08c0      	lsrs	r0, r0, #3
+ 10e:	00c0      	lsls	r0, r0, #3
+ 110:	4685      	mov	sp, r0
+ 112:	b018      	add	sp, #96	; 0x60
+ 114:	b520      	push	{r5, lr}
+ 116:	f7ff ffdf 	bl	d8 <__user_initial_stackheap>
+ 11a:	bc60      	pop	{r5, r6}
+ 11c:	2700      	movs	r7, #0
+ 11e:	0849      	lsrs	r1, r1, #1
+ 120:	46b6      	mov	lr, r6
+ 122:	2600      	movs	r6, #0
+ 124:	c5c0      	stmia	r5!, {r6, r7}
+ 126:	c5c0      	stmia	r5!, {r6, r7}
+ 128:	c5c0      	stmia	r5!, {r6, r7}
+ 12a:	c5c0      	stmia	r5!, {r6, r7}
+ 12c:	c5c0      	stmia	r5!, {r6, r7}
+ 12e:	c5c0      	stmia	r5!, {r6, r7}
+ 130:	c5c0      	stmia	r5!, {r6, r7}
+ 132:	c5c0      	stmia	r5!, {r6, r7}
+ 134:	3d40      	subs	r5, #64	; 0x40
+ 136:	0049      	lsls	r1, r1, #1
+ 138:	468d      	mov	sp, r1
+ 13a:	4770      	bx	lr
+
+0000013c <exit>:
+ 13c:	b510      	push	{r4, lr}
+ 13e:	4604      	mov	r4, r0
+ 140:	46c0      	nop			; (mov r8, r8)
+ 142:	46c0      	nop			; (mov r8, r8)
+ 144:	4620      	mov	r0, r4
+ 146:	f7ff ffba 	bl	be <__rt_exit>
+ 14a:	bd10      	pop	{r4, pc}
+
+0000014c <__user_libspace>:
+ 14c:	4800      	ldr	r0, [pc, #0]	; (150 <__user_libspace+0x4>)
+ 14e:	4770      	bx	lr
+ 150:	20000000 	.word	0x20000000
+
+00000154 <_sys_exit>:
+ 154:	4901      	ldr	r1, [pc, #4]	; (15c <_sys_exit+0x8>)
+ 156:	2018      	movs	r0, #24
+ 158:	beab      	bkpt	0x00ab
+ 15a:	e7fe      	b.n	15a <_sys_exit+0x6>
+ 15c:	00020026 	.word	0x00020026
+
+00000160 <__I$use$semihosting>:
+ 160:	4770      	bx	lr
+
+00000162 <__semihosting_library_function>:
+	...
+
+00000164 <main>:
+ 164:	2201      	movs	r2, #1
+ 166:	4b0b      	ldr	r3, [pc, #44]	; (194 <main+0x30>)
+ 168:	601a      	str	r2, [r3, #0]
+ 16a:	2000      	movs	r0, #0
+ 16c:	4a0a      	ldr	r2, [pc, #40]	; (198 <main+0x34>)
+ 16e:	059b      	lsls	r3, r3, #22
+ 170:	605a      	str	r2, [r3, #4]
+ 172:	2100      	movs	r1, #0
+ 174:	e00d      	b.n	192 <main+0x2e>
+ 176:	2201      	movs	r2, #1
+ 178:	0792      	lsls	r2, r2, #30
+ 17a:	6010      	str	r0, [r2, #0]
+ 17c:	4a07      	ldr	r2, [pc, #28]	; (19c <main+0x38>)
+ 17e:	4291      	cmp	r1, r2
+ 180:	da01      	bge.n	186 <main+0x22>
+ 182:	1c49      	adds	r1, r1, #1
+ 184:	e005      	b.n	192 <main+0x2e>
+ 186:	2100      	movs	r1, #0
+ 188:	2803      	cmp	r0, #3
+ 18a:	d101      	bne.n	190 <main+0x2c>
+ 18c:	2000      	movs	r0, #0
+ 18e:	e000      	b.n	192 <main+0x2e>
+ 190:	1c40      	adds	r0, r0, #1
+ 192:	e7f0      	b.n	176 <main+0x12>
+ 194:	e000e100 	.word	0xe000e100
+ 198:	00c9d2ff 	.word	0x00c9d2ff
+ 19c:	05f5e100 	.word	0x05f5e100
+
+000001a0 <Region$$Table$$Base>:
+ 1a0:	000001b0 	.word	0x000001b0
+ 1a4:	20000000 	.word	0x20000000
+ 1a8:	00000360 	.word	0x00000360
+ 1ac:	00000088 	.word	0x00000088
