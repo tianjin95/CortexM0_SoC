@@ -70,7 +70,7 @@ wire SLEEPHOLDACKn;
 reg SLEEPHOLDREQn;
 
 always @(posedge clk or negedge RSTn)begin
-        if (~RSTn) CDBGPWRUPACK <= 1'b1;
+        if (~RSTn) SLEEPHOLDREQn <= 1'b1;
         else SLEEPHOLDREQn <= SLEEPHOLDACKn;
 end
 
