@@ -1,0 +1,134 @@
+C:/Users/tianj/Desktop/CortexM0_SoC/rtl/FIFO.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/FIFO.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_UART.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_UART.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AHBlite_UART
+
+Top level modules:
+	AHBlite_UART
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_SlaveMUX.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_SlaveMUX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AHBlite_SlaveMUX
+
+Top level modules:
+	AHBlite_SlaveMUX
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_RX.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_RX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module UART_RX
+
+Top level modules:
+	UART_RX
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Decoder.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AHBlite_Decoder
+
+Top level modules:
+	AHBlite_Decoder
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/cortexm0ds_logic.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/cortexm0ds_logic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cortexm0ds_logic
+
+Top level modules:
+	cortexm0ds_logic
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_TX.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_TX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module UART_TX
+
+Top level modules:
+	UART_TX
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC_vlg_tst.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC_vlg_tst.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CortexM0_SoC_vlg_tst
+
+Top level modules:
+	CortexM0_SoC_vlg_tst
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/clkuart_pwm.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/clkuart_pwm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clkuart_pwm
+
+Top level modules:
+	clkuart_pwm
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Block_RAM.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Block_RAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AHBlite_Block_RAM
+
+Top level modules:
+	AHBlite_Block_RAM
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Block_RAM.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Block_RAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Block_RAM
+
+Top level modules:
+	Block_RAM
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Distributed_RAM.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Distributed_RAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Distributed_RAM
+
+Top level modules:
+	Distributed_RAM
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Distributed_RAM.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Distributed_RAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AHBlite_Distributed_RAM
+
+Top level modules:
+	AHBlite_Distributed_RAM
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/WaterLight.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/WaterLight.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WaterLight
+
+Top level modules:
+	WaterLight
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_WaterLight.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_WaterLight.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AHBlite_WaterLight
+
+Top level modules:
+	AHBlite_WaterLight
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_DMAC.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_DMAC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AHBlite_DMAC
+
+Top level modules:
+	AHBlite_DMAC
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_MasterMUX.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_MasterMUX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AHBlite_MasterMUX
+
+Top level modules:
+	AHBlite_MasterMUX
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CortexM0_SoC
+
+Top level modules:
+	CortexM0_SoC
+
+} {} {}} C:/Users/tianj/Desktop/CortexM0_SoC/rtl/DMA.v {1 {vlog -work work -stats=none C:/Users/tianj/Desktop/CortexM0_SoC/rtl/DMA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DMA
+
+Top level modules:
+	DMA
+
+} {} {}}

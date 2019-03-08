@@ -1,0 +1,536 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.0
+vABHlite_DMAC
+!s110 1551952239
+!i10b 1
+!s100 FbSJD5lH1[=egdHhH<l^;3
+IBo75aEo6]JM]AY?AfeaQo1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/tianj/Desktop/CortexM0_SoC/modelsim
+w1551952234
+Z2 8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_DMAC.v
+Z3 FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_DMAC.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1551952239.000000
+Z5 !s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_DMAC.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_DMAC.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@b@hlite_@d@m@a@c
+vAHBlite_Block_RAM
+Z9 !s110 1552034218
+!i10b 1
+!s100 lRcU<VFi>k8zVjg`RQ6f02
+I?M=>l9a@?PLi=m>GKjLdY0
+R0
+R1
+w1551947664
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Block_RAM.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Block_RAM.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1552034218.000000
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Block_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Block_RAM.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@block_@r@a@m
+vAHBlite_Decoder
+R9
+!i10b 1
+!s100 gQ_SnR4V0mU_S]O[_LS4F3
+ILDGSP2`WOb6Zl5>bm4@H;2
+R0
+R1
+w1551951137
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Decoder.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Decoder.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@decoder
+vAHBlite_Distributed_RAM
+R9
+!i10b 1
+!s100 1089ILG:L23D3U_7Y=VY81
+I4_7]7OiKF4W32`7;>^SVC0
+R0
+R1
+w1551948144
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Distributed_RAM.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Distributed_RAM.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Distributed_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_Distributed_RAM.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@distributed_@r@a@m
+vAHBlite_DMAC
+R9
+!i10b 1
+!s100 <=QW>mzS`?;34L7zNlY6=0
+IfE2`g8k_lLUPK5U_OLgM01
+R0
+R1
+w1552032132
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+R5
+R6
+!i113 1
+R7
+R8
+n@a@h@blite_@d@m@a@c
+vAHBlite_MasterMUX
+Z11 !s110 1552034219
+!i10b 1
+!s100 RGFzz71b<UzVTHa52]jQB3
+IHCXP:Lg;@1C;lVEOV1;XK3
+R0
+R1
+w1552030030
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_MasterMUX.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_MasterMUX.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_MasterMUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_MasterMUX.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@master@m@u@x
+vAHBlite_RAM
+!s110 1550827720
+!i10b 1
+!s100 0eg3NaJf?i0hFcdgU7]<z1
+I2oJ<PWo]NS03@2=Z>F28g3
+R0
+R1
+w1550651920
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_RAM.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_RAM.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1550827720.000000
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_RAM.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@s@r@a@m
+vAHBlite_ROM
+!s110 1550392371
+!i10b 1
+!s100 P81gn^bimI[^>f]>BBF5[0
+IL:^nWzCmfJ=5_Y^IQWk[00
+R0
+Z12 dC:/Users/tianj/OneDrive/Study/CortexM0_SoC/modelsim
+w1545372021
+8C:/Users/tianj/OneDrive/Study/CortexM0_SoC/AHBlite_ROM.v
+FC:/Users/tianj/OneDrive/Study/CortexM0_SoC/AHBlite_ROM.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1550392371.000000
+!s107 C:/Users/tianj/OneDrive/Study/CortexM0_SoC/AHBlite_ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/OneDrive/Study/CortexM0_SoC/AHBlite_ROM.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@r@o@m
+vAHBlite_SlaveMUX
+R9
+!i10b 1
+!s100 NmPHbE0clOGeMKD;PT0g40
+I0=HE5lK`3AaQS9VBK_V<o2
+R0
+R1
+w1550733783
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_SlaveMUX.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_SlaveMUX.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_SlaveMUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_SlaveMUX.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@slave@m@u@x
+vAHBlite_UART
+Z13 !s110 1552034217
+!i10b 1
+!s100 ^dGXbWk5BKhO3E^aaH0T=2
+ImZzn]E872`M<P6=YjMoGn3
+R0
+R1
+w1550825870
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_UART.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_UART.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z14 !s108 1552034217.000000
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_UART.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_UART.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@u@a@r@t
+vAHBlite_WaterLight
+R13
+!i10b 1
+!s100 =az5;c@Yn8A_mam>fFQ;[1
+ILTP]2==DB03Tez^GmMADE3
+R0
+R1
+w1550814647
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_WaterLight.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_WaterLight.v
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_WaterLight.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/AHBlite_WaterLight.v|
+!i113 1
+R7
+R8
+n@a@h@blite_@water@light
+vBlock_RAM
+R13
+!i10b 1
+!s100 R_f8e@UGT>SXDnC`R^Yg^2
+IdP<IR`_GXR5Vkz^dFD9i?3
+R0
+R1
+w1551947835
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Block_RAM.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/Block_RAM.v
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Block_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Block_RAM.v|
+!i113 1
+R7
+R8
+n@block_@r@a@m
+vclkuart_pwm
+R13
+!i10b 1
+!s100 gnE^NWE>L`:DgALfcXh<g0
+Ih0nBPH2SK7z>QBR`1@LHT2
+R0
+R1
+w1547716028
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/clkuart_pwm.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/clkuart_pwm.v
+L0 2
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/clkuart_pwm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/clkuart_pwm.v|
+!i113 1
+R7
+R8
+vCortexM0_SoC
+R13
+!i10b 1
+!s100 fOTHb5zf:?ez53P7g>CCV0
+ID^864B3zNJ;;2_Z`TEYV40
+R0
+R1
+w1552033113
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC.v
+L0 2
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC.v|
+!i113 1
+R7
+R8
+n@cortex@m0_@so@c
+vCortexM0_SoC_vlg_tst
+R13
+!i10b 1
+!s100 LP34jRe28J38h8JA7MN?Y1
+IhAb9ChB_]9:_df83DMJjh2
+R0
+R1
+w1552033128
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC_vlg_tst.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC_vlg_tst.v
+L0 28
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC_vlg_tst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/CortexM0_SoC_vlg_tst.v|
+!i113 1
+R7
+R8
+n@cortex@m0_@so@c_vlg_tst
+vcortexm0ds_logic
+R9
+!i10b 1
+!s100 g]bhJfd>MDCIiG;7=h9QF3
+ILajWnAE4@hkYzhEH9kzNJ0
+R0
+R1
+w1544700611
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/cortexm0ds_logic.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/cortexm0ds_logic.v
+L0 27
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/cortexm0ds_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/cortexm0ds_logic.v|
+!i113 1
+R7
+R8
+vDistributed_RAM
+R9
+!i10b 1
+!s100 5?IkWUf>MKkkzQTc6YFRo2
+IUFebFo3hHecflSVkW;B^a1
+R0
+R1
+w1551948588
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Distributed_RAM.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/Distributed_RAM.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Distributed_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/Distributed_RAM.v|
+!i113 1
+R7
+R8
+n@distributed_@r@a@m
+vDMA
+R11
+!i10b 1
+!s100 =hB7b2>I5F@VkE];X0d0F2
+ICGh3Ce;hIZHQOg0LYSj1P2
+R0
+R1
+w1552034213
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/DMA.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/DMA.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1552034219.000000
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/DMA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/DMA.v|
+!i113 1
+R7
+R8
+n@d@m@a
+vFIFO
+R9
+!i10b 1
+!s100 5gbUGTX^2bSgbSLU7[aPH1
+I`mEBZPkAkKQ_Gz:ZgW`R;0
+R0
+R1
+w1547620715
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/FIFO.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/FIFO.v
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/FIFO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/FIFO.v|
+!i113 1
+R7
+R8
+n@f@i@f@o
+vRAM
+!s110 1550725311
+!i10b 1
+!s100 ^DA^VPRT]3H9[2;4MS47Z1
+I6=XMOE@gTonlETEmG1XPl1
+R0
+R12
+w1550725206
+8C:/Users/tianj/OneDrive/Study/CortexM0_SoC/rtl/RAM.v
+FC:/Users/tianj/OneDrive/Study/CortexM0_SoC/rtl/RAM.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1550725311.000000
+!s107 C:/Users/tianj/OneDrive/Study/CortexM0_SoC/rtl/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/OneDrive/Study/CortexM0_SoC/rtl/RAM.v|
+!i113 1
+R7
+R8
+n@s@r@a@m
+vROM
+!s110 1550392373
+!i10b 1
+!s100 zl<l:hVU@AdOc=BdGKh^j3
+I]X6Mi;^DS19E2e63dGaQU3
+R0
+R12
+w1548838573
+8C:/Users/tianj/OneDrive/Study/CortexM0_SoC/ROM.v
+FC:/Users/tianj/OneDrive/Study/CortexM0_SoC/ROM.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1550392373.000000
+!s107 C:/Users/tianj/OneDrive/Study/CortexM0_SoC/ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/OneDrive/Study/CortexM0_SoC/ROM.v|
+!i113 1
+R7
+R8
+n@r@o@m
+vUART_RX
+R9
+!i10b 1
+!s100 O=Kh@SCFcW@VZO]]Ej@U:0
+I_iL8Ae?6oKUQ9>5dN;<8`3
+R0
+R1
+w1547715867
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_RX.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_RX.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_RX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_RX.v|
+!i113 1
+R7
+R8
+n@u@a@r@t_@r@x
+vUART_TX
+R9
+!i10b 1
+!s100 1Tl`?^kRMdh?5JI[Y^2k03
+IEkkdPSRffESYT[J>eYUa[1
+R0
+R1
+w1550396711
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_TX.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_TX.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_TX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/UART_TX.v|
+!i113 1
+R7
+R8
+n@u@a@r@t_@t@x
+vWaterLight
+R9
+!i10b 1
+!s100 IL1fNh[cYVeVLPUBLB<2;2
+I68Wbm]F4@MEVn_cMD8HWX3
+R0
+R1
+w1547703875
+8C:/Users/tianj/Desktop/CortexM0_SoC/rtl/WaterLight.v
+FC:/Users/tianj/Desktop/CortexM0_SoC/rtl/WaterLight.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/tianj/Desktop/CortexM0_SoC/rtl/WaterLight.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tianj/Desktop/CortexM0_SoC/rtl/WaterLight.v|
+!i113 1
+R7
+R8
+n@water@light
